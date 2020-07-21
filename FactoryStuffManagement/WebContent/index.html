@@ -1,0 +1,324 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+		<!--[if IE]>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<![endif]-->
+   		<title>工厂物资管理系统</title>
+		<link rel="icon" href="assets/img/fac01.png" type="image/x-icon">
+		<!-- BOOTSTRAP CORE STYLE  -->
+		<link href="assets/css/bootstrap.css" rel="stylesheet" />
+		<!-- FONT AWESOME STYLE  -->
+		<link href="assets/css/font-awesome.css" rel="stylesheet" />
+		<!-- CUSTOM STYLE  -->
+		<link href="assets/css/style.css" rel="stylesheet" />
+		<!-- GOOGLE FONT -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+		
+	</head>
+	<body>
+		
+		<!-- LOGO HEADER END-->
+		<section class="menu-section">
+			<div class="container">
+				<div class="row ">
+					<div class="col-md-12">
+						<div class="navbar-collapse collapse ">
+							<ul id="menu-top" class="nav navbar-nav">
+							
+							<li>
+           	                	<a class="navbar-brand" href="index.html">
+                    			<img src="assets/img/fac01.png" />
+                				</a>
+                			</li>
+
+                			
+								<li><a href="index.html" class="menu-top-active">
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								主&nbsp;&nbsp;页
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								</a></li>
+
+								<li>
+									<a href="#" class="dropdown-toggle" id="ddlmenuItem" data-toggle="dropdown">
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									库&nbsp;&nbsp;存
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<i class="fa fa-angle-down"></i></a>
+									<ul class="dropdown-menu" role="menu" aria-labelledby="ddlmenuItem">
+										<li role="presentation"><a role="menuitem" tabindex="-1" href="QueryRepertory">&nbsp;&nbsp;&nbsp;&nbsp;库存查询&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+										<li role="presentation"><a role="menuitem" tabindex="-1" href="ModifyQueryRepertory">&nbsp;&nbsp;&nbsp;&nbsp;库存管理&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+									</ul>
+								</li>
+
+								<li><a href="supplySubmit.jsp">
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								供&nbsp;&nbsp;货
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								</a></li>
+		
+								<li><a href="QueryRepertoryTiny">
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								订&nbsp;&nbsp;单
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								</a></li>
+				
+								<li><a href="join.jsp">
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								加&nbsp;&nbsp;盟
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								</a></li>
+
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- MENU SECTION END-->
+		<div class="content-wrapper">
+			<div class="container">
+
+
+
+				<div class="row">
+					<div class="col-md-3 col-sm-3 col-xs-6">
+						<div class="alert alert-info back-widget-set text-center">
+							<i class="fa fa-history fa-5x"></i>
+							<h3>30Million+&nbsp; <i class="fa fa-dollar"></i></h3>
+							资产决定质量
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-6">
+						<div class="alert alert-success back-widget-set text-center">
+							<i class="fa fa-bars fa-5x"></i>
+							<h3>3+ Members</h3>
+							并行解决问题
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-6">
+						<div class="alert alert-warning back-widget-set text-center">
+							<i class="fa fa-recycle fa-5x"></i>
+							<h3>N+ Meetings</h3>
+							成功在于细节
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-6">
+						<div class="alert alert-danger back-widget-set text-center">
+							<i class="fa fa-briefcase fa-5x"></i>
+							<h3>3+ Methods </h3>
+							技术成就项目
+						</div>
+					</div>
+				</div>
+
+
+
+
+				<div class="row">
+
+					<div class="col-md-8 col-sm-8 col-xs-12">
+						<div id="carousel-example" class="carousel slide slide-bdr" data-ride="carousel">
+
+							<div class="carousel-inner">
+											<div class="item active">
+
+									<img src="assets/img/TL-4-1.jpg.png" alt="" />
+
+								</div>
+								<div class="item">
+									<img src="assets/img/TL-1-1.jpg.png" alt="" />
+
+								</div>
+								<div class="item">
+									<img src="assets/img/TL-2-1.jpg.png" alt="" />
+
+								</div>
+							</div>
+
+							<!--INDICATORS-->
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-example" data-slide-to="1"></li>
+								<li data-target="#carousel-example" data-slide-to="2"></li>
+							</ol>
+
+							<!--PREVIUS-NEXT BUTTONS-->
+							<a class="left carousel-control" href="#carousel-example" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="right carousel-control" href="#carousel-example" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<div class="panel panel-primary ">
+							<div class="panel-heading">
+								口碑来自客户
+							</div>
+							<div class="panel-body chat-widget-main">
+								<div class="chat-widget-left">
+									专业，值得信赖！
+								</div>
+								<div class="chat-widget-name-left">
+									<img class="media-object img-circle img-left-chat" src="assets/img/girl.png" />
+									<h4> 一位来自计科的美女</h4>
+									<h5>2020.06.06</h5>
+								</div>
+								<hr />
+								<div class="chat-widget-right">
+									细节到位，无BUG~
+								</div>
+								<div class="chat-widget-name-right">
+									<img class="media-object img-circle img-right-chat" src="assets/img/boy.png" />
+									<h4>一位来自计科的帅哥</h4>
+									<h5>2020.06.07</h5>
+								</div>
+								<hr />
+								<div class="chat-widget-left">
+									安全高效！
+								</div>
+								<div class="chat-widget-name-left">
+									<img class="media-object img-circle img-left-chat" src="assets/img/girl.png" />
+									<h4>杨宏玉小姐姐</h4>
+									<h5>2020.06.07</h5>
+								</div>
+								<hr />
+								<div class="chat-widget-right">
+									细节完善！
+								</div>
+								<div class="chat-widget-name-right">
+									<img class="media-object img-circle img-right-chat" src="assets/img/boy.png" />
+									<h4>一位来自计科的帅哥</h4>
+									<h5>2020.06.08</h5>
+								</div>
+								<hr />
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+
+
+				<div class="row">
+
+					<div class="col-md-8 col-sm-8 col-xs-12">
+						<div class="panel panel-warning">
+							<div class="panel-heading">
+								近期项目一览
+							</div>
+							<div class="panel-body">
+								<ul class="media-list">
+
+									<li class="media">
+										<a class="pull-left" href="#">
+											<img class="media-object img-circle img-comments" src="assets/img/boy.png" />
+										</a>
+										<div class="media-body">
+											<h4 class="media-heading">港珠澳大桥</h4>
+											<p>
+												港珠澳大桥，它将香港、澳门、珠海三地连为一体。
+											</p>
+											<!-- Nested media object -->
+											<div class="media">
+												<a class="pull-left" href="#">
+													<img class="media-object img-circle img-comments" src="assets/img/girl.png">
+												</a>
+												<div class="media-body">
+													<h4 class="media-heading">上海中心大厦 </h4>
+													这是一个关于上海的梦想，一个二十年前便开始的计划。
+													<!-- Nested media object -->
+													<div class="media">
+														<a class="pull-left" href="#">
+															<img class="media-object img-circle img-comments" src="assets/img/boy.png" />
+														</a>
+														<div class="media-body">
+															<h4 class="media-heading">北京地铁网络</h4>
+															北京，城市的高速发展使交通拥堵不堪，城市的未来正面临前所未有的挑战。
+															
+														<div class="media">
+															<a class="pull-left" href="#">
+																<img class="media-object img-circle img-comments" src="assets/img/boy.png" />
+															</a>
+															<div class="media-body">
+																<h4 class="media-heading">海上巨型风机</h4>
+																风能是在可知范围内对环境影响最小的绿色能源。
+															
+															</div>
+														</div>
+															
+														</div>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<div class="alert alert-info text-center">
+							<h3>公告</h3>
+							<hr />
+							<i class="fa fa-gift fa-4x"></i>
+							<p>
+								精彩不断,折扣连连<br>
+								新货拿在手,折扣天天有<br>
+								新货不断上架,商品天天降价<br>
+								精美商品不断上架,折扣活动天天上演 <br>
+							</p>
+							<hr />
+							<a href="#" class="btn btn-info">立刻了解！</a>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+		<!-- CONTENT-WRAPPER SECTION END-->
+		<section class="footer-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						Copyright &copy; 2020.TYUT 1704 All rights reserved.</div>
+				</div>
+			</div>
+		</section>
+		<!-- FOOTER SECTION END-->
+		<!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+		<!-- CORE JQUERY  -->
+		<script src="assets/js/jquery-1.10.2.js"></script>
+		<!-- BOOTSTRAP SCRIPTS  -->
+		<script src="assets/js/bootstrap.js"></script>
+		<!-- CUSTOM SCRIPTS  -->
+		<script src="assets/js/custom.js"></script>
+		<script type="text/javascript" src="assets/js/jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="assets/js/mouse.js"></script>
+		
+
+	</body>
+</html>
